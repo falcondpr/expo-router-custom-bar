@@ -1,50 +1,37 @@
-# Welcome to your Expo app 👋
+# Bottom Bar Component (React Native)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is a customizable Bottom Bar component for React Native, developed using **Expo Router** and **TypeScript**. The Bottom Bar can be easily integrated into any React Native project to provide a modern and user-friendly navigation experience.
 
-## Get started
+<div style="display: flex; justify-content: center; align-items: center; margin-top:8px;">
+   <img src="./design.jpg" alt="Alt text" height="300" style="border-radius: 15px;">
+</div>
 
-1. Install dependencies
+## Features
 
-   ```bash
-   npm install
-   ```
+- **Customizable Icons and Labels**: Easily change the icons and labels to suit your app's needs.
+- **Easy Integration**: Simple to integrate with any React Native project using Expo.
+- **TypeScript Support**: Fully written in TypeScript for type safety and improved developer experience.
+- **Clean Folder Structure**: Follows Expo Router's best practices for managing tabs, ensuring a clean and maintainable codebase.
 
-2. Start the app
+## Usage
 
-   ```bash
-    npx expo start
-   ```
+You can integrate the Bottom Bar component into your app and customize it according to your needs. The component is designed to be flexible, making it easy to create a seamless navigation experience for your users.
 
-In the output, you'll find options to open the app in a
+## Best Practices
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+This project uses **Expo Router** with a tab-based structure for managing navigation, ensuring a clean, scalable, and maintainable folder organization. By following Expo Router’s best practices, the project remains easy to manage and extend as needed.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Inspiration
 
-## Get a fresh project
+This component was inspired by a **YouTube tutorial**. I extended the concept by using **TypeScript** for better type safety and refactored the folder paths to follow **Expo Router’s best practices**.
 
-When you're ready, run:
+Channel of the guy
+[Code With Nomi](https://www.youtube.com/@codewithnomi)
 
-```bash
-npm run reset-project
-```
+## License
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+This project is open-source and available under the [MIT License](LICENSE).
 
-## Learn more
+---
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+This version of the README omits the installation steps, focusing on the features, usage, best practices, and inspiration behind the project.

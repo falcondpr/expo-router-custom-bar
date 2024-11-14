@@ -33,5 +33,3 @@ Channel of the guy
 This project is open-source and available under the [MIT License](LICENSE).
 
 ---
-
-This version of the README omits the installation steps, focusing on the features, usage, best practices, and inspiration behind the project.
